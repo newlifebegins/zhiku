@@ -69,6 +69,10 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 .expert dl dd a:hover{color: #43a5ee;}
 .expert .more{text-align: center;margin-top: 30px;}
 .expert .more a{display: inline-block;width: 160px;height: 40px;border: 1px solid #0E94C3;text-align: center;line-height: 40px;border-radius: 3px;font-size: 16px;color: #0E94C3;}
+.expert .expert-title{margin-top: 20px;}
+.expert .expert-title li{float: left;line-height: 34px;font-size: 16px;}
+.expert .expert-title li a{display: block;line-height: 34px;padding: 0 29px;color: #000;}
+.expert .expert-title li.active a,.expert .expert-title li a:hover{color: #fff;background: #0E94C3;}
 
 #footer{width: 100%;min-width: 1200px;background: #0e94c3;text-align: center;}
 #footer li{display: inline-block;}
