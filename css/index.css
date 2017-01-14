@@ -48,15 +48,16 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 .expert-spec dl{padding-top: 60px;}
 .expert-spec dl dt{float: left;padding: 0 24px;}
 .expert-spec dl dt img{width: 76px;height: 76px;border-radius: 50%;}
-.expert-spec dl dt h5{font-size: 14px;color: #2087d4;text-align: center;padding-top: 5px;}
+.expert-spec dl dt a{font-size: 14px;color: #2087d4;text-align: center;padding-top: 5px;display: block;}
+.expert-spec dl dt a:hover{color: #43a5ee;}
 .expert-spec dl dd{font-size: 14px;color: #727171;line-height: 26px;margin-left: 135px;}
 .expert-spec .page{text-align: center;padding-top: 58px;}
-.expert-spec .page a,.expert-spec .page span{display: inline-block;font-size: 16px;line-height: 42px;}
-.expert-spec .page a{padding: 0 30px;color: #fff;background-color: #999;}
+.expert-spec .page a{display: inline-block;font-size: 16px;line-height: 42px;}
+.expert-spec .page a.prev,.expert-spec .page a.next{padding: 0 30px;color: #fff;background-color: #999;}
 .expert-spec .page a.prev{margin-right: 208px;}
 .expert-spec .page a.next{margin-left: 208px;}
-.expert-spec .page span{padding: 0 17px;color: #000;}
-.expert-spec .page span.active{background-color: #32a5de;color: #fff;}
+.expert-spec .page a.pages{padding: 0 17px;color: #000;}
+.expert-spec .page a.pages.active{background-color: #32a5de;color: #fff;}
 
 .expert{width: 100%;min-width: 1200px;padding: 82px 0 110px;}
 .expert .title{text-align: center;position: relative;border-top: 1px solid #c9caca;padding: 20px 0;}
@@ -64,7 +65,8 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 .expert dl{padding-top: 60px;}
 .expert dl dt{float: left;padding: 0 24px;width: 50px;height: 50px;border-radius: 50%;overflow: hidden;}
 .expert dl dd{font-size: 14px;color: #727171;line-height: 48px;margin-left: 94px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
-.expert dl dd span{font-size: 14px;color: #2087d4;margin-right: 50px;}
+.expert dl dd a{font-size: 14px;color: #2087d4;margin-right: 50px;}
+.expert dl dd a:hover{color: #43a5ee;}
 
 #footer{width: 100%;min-width: 1200px;background: #0e94c3;text-align: center;}
 #footer li{display: inline-block;}
